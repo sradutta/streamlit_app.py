@@ -4,7 +4,7 @@ st.title("Dr.Dutta's Statistics Assistant")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "ai", "text": "Hi! I'm your AI Math Coach. Ask me anything."}
+        {"role": "ai", "text": "Hi! I'm Dr. Dutta's AI Statistics Assistant. Ask me anything."}
     ]
 
 def get_ttest_explanation():
