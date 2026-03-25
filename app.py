@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Canvas AI Math Coach")
+st.title("Dr.Dutta's Statistics Assistant")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
